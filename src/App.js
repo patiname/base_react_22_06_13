@@ -4,6 +4,7 @@ import {
   FnComponent_1,
   FnComponent_2,
 } from "./components/2_component/FnComponent";
+import { FoodMenu } from "./components/2_component/FoodMenu";
 // import FnComponent from "./components/2_component/FnComponent";
 
 const App = () => {
@@ -15,7 +16,9 @@ const App = () => {
       {/* <FnComponent /> */}
       {/* <FnComponent_1 />
       <FnComponent_2 /> */}
-      <ClassComponent />
+      {/* <ClassComponent /> */}
+
+      <FoodMenu />
     </div>
   );
 };
