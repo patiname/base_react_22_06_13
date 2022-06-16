@@ -13,10 +13,12 @@ import { Kakao } from "./components/4_map/Kakao";
 import { kakaoDb, subJectDb } from "./db";
 // import FnComponent from "./components/2_component/FnComponent";
 import { todayMenu } from "./db";
+import { GlobalStyeld } from "./styles/GlobalStyeld";
 
 const App = () => {
   return (
     <div>
+      <GlobalStyeld />
       {/* <TagRule /> */}
       {/* 1일차 */}
 
