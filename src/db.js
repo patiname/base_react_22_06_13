@@ -72,3 +72,72 @@ export const kakaoDb = [
     desc: "한편, 카카오는 지난 4월 기후위기 대응 원칙을 수립하고 환경 문제를 해결하는 등 ESG경영을 강화하기 위해 ‘Active Green Initiative’를 발표했다. 자사의 탄소배출량을 ",
   },
 ];
+
+export const conDb = [
+  {
+    id: 0,
+    imgUrl:
+      "https://velog.velcdn.com/images/dldnjswns31/post/acf9ed03-21a9-4a8c-aabd-664e8a344424/image.webp",
+    title: "HTML5",
+    url: "https://www.google.com/search?q=HTML5",
+    desc: "HTML5는 HTML의 완전한 5번째 버전으로 월드 와이드 웹 의 핵심 마크업 언어이다. 2004년 7월 Web Hypertext Application Technology Working Group",
+  },
+  {
+    id: 1,
+    imgUrl:
+      "https://images.velog.io/images/jakeseo_me/post/7492518b-f81c-4ebe-be44-a40f2af5064c/css%20shield.png",
+    title: "CSS",
+    url: "https://www.google.com/search?q=CSS",
+    desc: "종속형 시트 또는 캐스케이딩 스타일 시트는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어로, HTML과 XHTML에 주로 쓰이며",
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png",
+    title: "JAVASCRIPT",
+    url: "https://www.google.com/search?q=JAVASCRIPT",
+    desc: "자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체",
+  },
+];
+
+export const testDb = [
+  {
+    id: 0,
+    imgUrl:
+      "https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?w=2000",
+    title: "배경이미지1",
+    url: "https://www.google.com/search?q=HTML5",
+    desc: `
+    Freepik
+    Aesthetic Background Images | Free Vectors, Stock Photos & PSD
+    방문
+    이미지 받기: Freepik | 라이선스 세부정보
+    정보의 출처가 궁금하신가요? 자세히 알아보기`,
+  },
+  {
+    id: 1,
+    imgUrl:
+      "https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?w=2000",
+    title: "배경이미지2",
+    url: "https://www.google.com/search?q=HTML5",
+    desc: `
+    Freepik
+    Aesthetic Background Images | Free Vectors, Stock Photos & PSD
+    방문
+    이미지 받기: Freepik | 라이선스 세부정보
+    정보의 출처가 궁금하신가요? 자세히 알아보기`,
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?w=2000",
+    title: "배경이미지3",
+    url: "https://www.google.com/search?q=HTML5",
+    desc: `
+    Freepik
+    Aesthetic Background Images | Free Vectors, Stock Photos & PSD
+    방문
+    이미지 받기: Freepik | 라이선스 세부정보
+    정보의 출처가 궁금하신가요? 자세히 알아보기`,
+  },
+];

@@ -7,10 +7,11 @@ import {
 import { Menus } from "./components/3_props/Menus";
 import { Subject } from "./components/3_props/Subject";
 import { TodayMenu } from "./components/3_props/TodayMenu";
+import { ConEx } from "./components/4_map/ConEx";
 import { Content } from "./components/4_map/Content";
 import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
-import { kakaoDb, subJectDb } from "./db";
+import { conDb, kakaoDb, subJectDb, testDb } from "./db";
 // import FnComponent from "./components/2_component/FnComponent";
 import { todayMenu } from "./db";
 import { GlobalStyeld } from "./styles/GlobalStyeld";
@@ -36,7 +37,8 @@ const App = () => {
 
       {/* <FoodMenu menus={todayMenu} /> */}
       {/* <Kakao kakaoData={kakaoDb} /> */}
-      <Content />
+      {/* <Content /> */}
+      <ConEx conData={conDb} />
       {/* 4일차 */}
     </div>
   );
