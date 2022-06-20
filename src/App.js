@@ -13,6 +13,8 @@ import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { MusicApp } from "./components/5_MusicApp/MusicApp";
+import { ClassEvent } from "./components/6_Event/ClassEvent";
+import { FnEvent } from "./components/6_Event/FnEvent";
 import { conDb, kakaoDb, subJectDb, testDb } from "./db";
 // import FnComponent from "./components/2_component/FnComponent";
 import { todayMenu } from "./db";
@@ -44,7 +46,10 @@ const App = () => {
       {/* 4일차 */}
 
       {/* <Icons /> */}
-      <MusicApp />
+      {/* <MusicApp /> */}
+
+      {/* <ClassEvent /> */}
+      <FnEvent />
       {/* 5일차 */}
     </div>
   );
