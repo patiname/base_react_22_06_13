@@ -18,6 +18,7 @@ import { ChangeColor } from "./components/6_Event/ChangeColor";
 import { ChoiceColor } from "./components/6_Event/ChoiceColor";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
+import { BaseRouter } from "./components/7_router/BaseRouter";
 import { conDb, kakaoDb, subJectDb, testDb } from "./db";
 // import FnComponent from "./components/2_component/FnComponent";
 import { todayMenu } from "./db";
@@ -57,8 +58,11 @@ const App = () => {
 
       {/* <ChangeColor /> */}
       {/* <ChoiceColor /> */}
-      <Animation />
+      {/* <Animation /> */}
       {/* 6일차 */}
+
+      <BaseRouter />
+      {/* 7일차 */}
     </div>
   );
 };
