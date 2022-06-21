@@ -13,6 +13,7 @@ import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { MusicApp } from "./components/5_MusicApp/MusicApp";
+import { Animation } from "./components/6_Event/Animation";
 import { ChangeColor } from "./components/6_Event/ChangeColor";
 import { ChoiceColor } from "./components/6_Event/ChoiceColor";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
@@ -55,7 +56,8 @@ const App = () => {
       {/* 5일차 */}
 
       {/* <ChangeColor /> */}
-      <ChoiceColor />
+      {/* <ChoiceColor /> */}
+      <Animation />
       {/* 6일차 */}
     </div>
   );
