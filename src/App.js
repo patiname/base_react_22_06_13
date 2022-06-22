@@ -1,27 +1,28 @@
-import TagRule from "./components/1_JsxRule/TagRule";
-import ClassComponent from "./components/2_component/ClassComponent";
-import {
-  FnComponent_1,
-  FnComponent_2,
-} from "./components/2_component/FnComponent";
-import { Menus } from "./components/3_props/Menus";
-import { Subject } from "./components/3_props/Subject";
-import { TodayMenu } from "./components/3_props/TodayMenu";
-import { ConEx } from "./components/4_map/ConEx";
-import { Content } from "./components/4_map/Content";
-import { FoodMenu } from "./components/4_map/FoodMenu";
-import { Kakao } from "./components/4_map/Kakao";
-import { Icons } from "./components/5_MusicApp/Icons";
-import { MusicApp } from "./components/5_MusicApp/MusicApp";
-import { Animation } from "./components/6_Event/Animation";
-import { ChangeColor } from "./components/6_Event/ChangeColor";
-import { ChoiceColor } from "./components/6_Event/ChoiceColor";
-import { ClassEvent } from "./components/6_Event/ClassEvent";
-import { FnEvent } from "./components/6_Event/FnEvent";
-import { BaseRouter } from "./components/7_router/BaseRouter";
-import { conDb, kakaoDb, subJectDb, testDb } from "./db";
+// import TagRule from "./components/1_JsxRule/TagRule";
+// import ClassComponent from "./components/2_component/ClassComponent";
+// import {
+//   FnComponent_1,
+//   FnComponent_2,
+// } from "./components/2_component/FnComponent";
+// import { Menus } from "./components/3_props/Menus";
+// import { Subject } from "./components/3_props/Subject";
+// import { TodayMenu } from "./components/3_props/TodayMenu";
+// import { ConEx } from "./components/4_map/ConEx";
+// import { Content } from "./components/4_map/Content";
+// import { FoodMenu } from "./components/4_map/FoodMenu";
+// import { Kakao } from "./components/4_map/Kakao";
+// import { Icons } from "./components/5_MusicApp/Icons";
+// import { MusicApp } from "./components/5_MusicApp/MusicApp";
+// import { Animation } from "./components/6_Event/Animation";
+// import { ChangeColor } from "./components/6_Event/ChangeColor";
+// import { ChoiceColor } from "./components/6_Event/ChoiceColor";
+// import { ClassEvent } from "./components/6_Event/ClassEvent";
+// import { FnEvent } from "./components/6_Event/FnEvent";
+// import { BaseRouter } from "./components/7_router/BaseRouter";
+// import { conDb, kakaoDb, subJectDb, testDb } from "./db";
 // import FnComponent from "./components/2_component/FnComponent";
-import { todayMenu } from "./db";
+// import { todayMenu } from "./db";
+import { LayoutRouter } from "./components/8_BaseLayout/LayoutRouter";
 import { GlobalStyeld } from "./styles/GlobalStyeld";
 
 const App = () => {
@@ -61,8 +62,10 @@ const App = () => {
       {/* <Animation /> */}
       {/* 6일차 */}
 
-      <BaseRouter />
+      {/* <BaseRouter /> */}
       {/* 7일차 */}
+
+      <LayoutRouter />
     </div>
   );
 };
